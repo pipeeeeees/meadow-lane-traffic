@@ -9,14 +9,14 @@ What I used in my setup:
 - For my setup, Python 3.8.3
 - OpenCV (cv2)
 
-<img src="docs/webcam_setup.jpg"  width="800">
+<img src="docs/webcam_setup.jpg"  width="400">
 
 # Initial Results (commit ad4ec56)
 The initial results were encouraging, but proved that there were some obvious challenges to overcome. These include:
 Enocuraging Results:
 - Successfully detected multiple cars
 
-<img src="docs/commit_ad4ec56/car_capture.jpg"  width="800">
+<img src="docs/commit_ad4ec56/car_capture.jpg"  width="400">
 
 Challenges:
 - Sufficient data collection can only occur when there is adequate light outside and line-of-sight to the target. These are largely out of my control.
@@ -26,4 +26,4 @@ Challenges:
 - The angle of the street from my apartment constrains the window that a car can be seen, amking future motion tracking a little more difficult to track over a wide shot. 
 - Have not successfuly classified a human person yet.
 
-<img src="docs/commit_ad4ec56/false_human_capture.jpg"  width="800">
+<img src="docs/commit_ad4ec56/false_human_capture.jpg"  width="400">
